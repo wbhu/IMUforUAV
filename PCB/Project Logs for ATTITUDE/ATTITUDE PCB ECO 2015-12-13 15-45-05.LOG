@@ -1,0 +1,39 @@
+Added Component: Designator=C3(C0805)
+Added Component: Designator=C8(C0805)
+Added Component: Designator=C10(C0805)
+Added Component: Designator=C11(C0805)
+Added Component: Designator=MPU6050(MPU6050)
+Added Component: Designator=R8(6-0805_M)
+Added Component: Designator=R9(6-0805_M)
+Added Pin To Net: NetName=FSYNC Pin=MPU6050-11
+Added Net: Name=FSYNC
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C8-1
+Added Pin To Net: NetName=GND Pin=C10-1
+Added Pin To Net: NetName=GND Pin=MPU6050-1
+Added Pin To Net: NetName=GND Pin=MPU6050-9
+Added Pin To Net: NetName=GND Pin=MPU6050-18
+Added Net: Name=GND
+Added Pin To Net: NetName=INTA Pin=MPU6050-12
+Added Net: Name=INTA
+Added Pin To Net: NetName=NetC8_2 Pin=C8-2
+Added Pin To Net: NetName=NetC8_2 Pin=MPU6050-20
+Added Net: Name=NetC8_2
+Added Pin To Net: NetName=NetC10_2 Pin=C10-2
+Added Pin To Net: NetName=NetC10_2 Pin=MPU6050-10
+Added Net: Name=NetC10_2
+Added Pin To Net: NetName=SCL Pin=MPU6050-23
+Added Pin To Net: NetName=SCL Pin=R9-1
+Added Net: Name=SCL
+Added Pin To Net: NetName=SDA Pin=MPU6050-24
+Added Pin To Net: NetName=SDA Pin=R8-2
+Added Net: Name=SDA
+Added Pin To Net: NetName=VCC Pin=C3-2
+Added Pin To Net: NetName=VCC Pin=C11-1
+Added Pin To Net: NetName=VCC Pin=MPU6050-8
+Added Pin To Net: NetName=VCC Pin=MPU6050-13
+Added Pin To Net: NetName=VCC Pin=R8-1
+Added Pin To Net: NetName=VCC Pin=R9-2
+Added Net: Name=VCC
+Added Class: Name=ATTITUDE
+Added Room: Name=ATTITUDE

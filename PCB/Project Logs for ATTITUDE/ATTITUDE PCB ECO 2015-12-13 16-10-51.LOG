@@ -1,0 +1,121 @@
+Removed Member From Class: ClassName=ATTITUDE Member=C1
+Removed Member From Class: ClassName=ATTITUDE Member=C2
+Removed Member From Class: ClassName=ATTITUDE Member=C3
+Removed Member From Class: ClassName=ATTITUDE Member=C8
+Removed Member From Class: ClassName=ATTITUDE Member=C9
+Removed Member From Class: ClassName=ATTITUDE Member=C10
+Removed Member From Class: ClassName=ATTITUDE Member=C11
+Removed Member From Class: ClassName=ATTITUDE Member=R8
+Removed Member From Class: ClassName=ATTITUDE Member=R9
+Change Component DesignItemId : Designator=P1 Old DesignItemId=Header 7 New DesignItemId=Header 20
+Change Component Footprint: Designator=P1 Old Footprint=HDR1X7 New Footprint=HDR1X20
+Change Component Comment : Designator=P1 Old Comment=Header 7 New Comment=Header 20
+Added Component: Designator=P2(HDR1X20)
+Added Pin To Net: NetName=HMC_1 Pin=HMC5883-1
+Added Pin To Net: NetName=HMC_1 Pin=P2-5
+Added Net: Name=HMC_1
+Added Pin To Net: NetName=HMC_2 Pin=HMC5883-2
+Added Pin To Net: NetName=HMC_2 Pin=P2-6
+Added Net: Name=HMC_2
+Added Pin To Net: NetName=HMC_3 Pin=P2-7
+Added Net: Name=HMC_3
+Added Pin To Net: NetName=HMC_4 Pin=HMC5883-4
+Added Pin To Net: NetName=HMC_4 Pin=P2-8
+Added Net: Name=HMC_4
+Added Pin To Net: NetName=HMC_5 Pin=P2-9
+Added Net: Name=HMC_5
+Added Pin To Net: NetName=HMC_6 Pin=P2-10
+Added Net: Name=HMC_6
+Added Pin To Net: NetName=HMC_7 Pin=P2-11
+Added Net: Name=HMC_7
+Added Pin To Net: NetName=HMC_8 Pin=HMC5883-8
+Added Pin To Net: NetName=HMC_8 Pin=P2-12
+Added Net: Name=HMC_8
+Added Pin To Net: NetName=HMC_9 Pin=HMC5883-9
+Added Pin To Net: NetName=HMC_9 Pin=P2-13
+Added Net: Name=HMC_9
+Added Pin To Net: NetName=HMC_10 Pin=HMC5883-10
+Added Pin To Net: NetName=HMC_10 Pin=P2-14
+Added Net: Name=HMC_10
+Added Pin To Net: NetName=HMC_11 Pin=HMC5883-11
+Added Pin To Net: NetName=HMC_11 Pin=P2-15
+Added Net: Name=HMC_11
+Added Pin To Net: NetName=HMC_12 Pin=P2-16
+Added Net: Name=HMC_12
+Added Pin To Net: NetName=HMC_13 Pin=HMC5883-13
+Added Pin To Net: NetName=HMC_13 Pin=P2-17
+Added Net: Name=HMC_13
+Added Pin To Net: NetName=HMC_14 Pin=P2-18
+Added Net: Name=HMC_14
+Added Pin To Net: NetName=HMC_15 Pin=HMC5883-15
+Added Pin To Net: NetName=HMC_15 Pin=P2-19
+Added Net: Name=HMC_15
+Added Pin To Net: NetName=HMC_16 Pin=HMC5883-16
+Added Pin To Net: NetName=HMC_16 Pin=P2-20
+Added Net: Name=HMC_16
+Added Pin To Net: NetName=MPU_1 Pin=MPU6050-1
+Added Pin To Net: NetName=MPU_1 Pin=P1-1
+Added Net: Name=MPU_1
+Added Pin To Net: NetName=MPU_2 Pin=P1-2
+Added Net: Name=MPU_2
+Added Pin To Net: NetName=MPU_3 Pin=P1-3
+Added Net: Name=MPU_3
+Added Pin To Net: NetName=MPU_4 Pin=P1-4
+Added Net: Name=MPU_4
+Added Pin To Net: NetName=MPU_5 Pin=P1-5
+Added Net: Name=MPU_5
+Added Pin To Net: NetName=MPU_6 Pin=MPU6050-6
+Added Pin To Net: NetName=MPU_6 Pin=P1-6
+Added Net: Name=MPU_6
+Added Pin To Net: NetName=MPU_7 Pin=MPU6050-7
+Added Pin To Net: NetName=MPU_7 Pin=P1-7
+Added Net: Name=MPU_7
+Added Pin To Net: NetName=MPU_8 Pin=MPU6050-8
+Added Pin To Net: NetName=MPU_8 Pin=P1-8
+Added Net: Name=MPU_8
+Added Pin To Net: NetName=MPU_9 Pin=MPU6050-9
+Added Pin To Net: NetName=MPU_9 Pin=P1-9
+Added Net: Name=MPU_9
+Added Pin To Net: NetName=MPU_10 Pin=MPU6050-10
+Added Pin To Net: NetName=MPU_10 Pin=P1-10
+Added Net: Name=MPU_10
+Added Pin To Net: NetName=MPU_11 Pin=MPU6050-11
+Added Pin To Net: NetName=MPU_11 Pin=P1-11
+Added Net: Name=MPU_11
+Added Pin To Net: NetName=MPU_12 Pin=MPU6050-12
+Added Pin To Net: NetName=MPU_12 Pin=P1-12
+Added Net: Name=MPU_12
+Added Pin To Net: NetName=MPU_13 Pin=MPU6050-13
+Added Pin To Net: NetName=MPU_13 Pin=P1-13
+Added Net: Name=MPU_13
+Added Pin To Net: NetName=MPU_14 Pin=P1-14
+Added Net: Name=MPU_14
+Added Pin To Net: NetName=MPU_15 Pin=P1-15
+Added Net: Name=MPU_15
+Added Pin To Net: NetName=MPU_16 Pin=P1-16
+Added Net: Name=MPU_16
+Added Pin To Net: NetName=MPU_17 Pin=P1-17
+Added Net: Name=MPU_17
+Added Pin To Net: NetName=MPU_18 Pin=MPU6050-18
+Added Pin To Net: NetName=MPU_18 Pin=P1-18
+Added Net: Name=MPU_18
+Added Pin To Net: NetName=MPU_19 Pin=MPU6050-19
+Added Pin To Net: NetName=MPU_19 Pin=P1-19
+Added Net: Name=MPU_19
+Added Pin To Net: NetName=MPU_20 Pin=MPU6050-20
+Added Pin To Net: NetName=MPU_20 Pin=P1-20
+Added Net: Name=MPU_20
+Added Pin To Net: NetName=MPU_21 Pin=MPU6050-21
+Added Pin To Net: NetName=MPU_21 Pin=P2-1
+Added Net: Name=MPU_21
+Added Pin To Net: NetName=MPU_22 Pin=MPU6050-22
+Added Pin To Net: NetName=MPU_22 Pin=P2-2
+Added Net: Name=MPU_22
+Added Pin To Net: NetName=MPU_23 Pin=MPU6050-23
+Added Pin To Net: NetName=MPU_23 Pin=P2-3
+Added Net: Name=MPU_23
+Added Pin To Net: NetName=MPU_24 Pin=MPU6050-24
+Added Pin To Net: NetName=MPU_24 Pin=P2-4
+Added Net: Name=MPU_24
+Added Member To Class: ClassName=ATTITUDE Member=Component P2 Header 20
+Added Room: Name=ATTITUDE

@@ -1,0 +1,40 @@
+Added Component: Designator=C1(C0805)
+Added Component: Designator=C2(C0805)
+Added Component: Designator=C9(C0805)
+Added Component: Designator=HMC5883(HMC5883)
+Added Component: Designator=P1(HDR1X7)
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=VCC Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C9-2
+Added Pin To Net: NetName=GND Pin=C11-2
+Added Pin To Net: NetName=SCL Pin=HMC5883-1
+Added Pin To Net: NetName=VCC Pin=HMC5883-2
+Added Pin To Net: NetName=VCC Pin=HMC5883-4
+Added Pin To Net: NetName=GND Pin=HMC5883-9
+Added Pin To Net: NetName=GND Pin=HMC5883-11
+Added Pin To Net: NetName=VCC Pin=HMC5883-13
+Added Pin To Net: NetName=SDA Pin=HMC5883-16
+Added Pin To Net: NetName=VCC Pin=P1-1
+Added Pin To Net: NetName=GND Pin=P1-2
+Added Pin To Net: NetName=SCL Pin=P1-3
+Added Pin To Net: NetName=SDA Pin=P1-4
+Added Pin To Net: NetName=FSYNC Pin=P1-5
+Added Pin To Net: NetName=INTA Pin=P1-6
+Added Pin To Net: NetName=DRDY Pin=HMC5883-15
+Added Pin To Net: NetName=DRDY Pin=P1-7
+Added Net: Name=DRDY
+Added Pin To Net: NetName=NetC2_1 Pin=C2-1
+Added Pin To Net: NetName=NetC2_1 Pin=HMC5883-8
+Added Net: Name=NetC2_1
+Added Pin To Net: NetName=NetC2_2 Pin=C2-2
+Added Pin To Net: NetName=NetC2_2 Pin=HMC5883-12
+Added Net: Name=NetC2_2
+Added Pin To Net: NetName=NetC9_1 Pin=C9-1
+Added Pin To Net: NetName=NetC9_1 Pin=HMC5883-10
+Added Net: Name=NetC9_1
+Added Member To Class: ClassName=ATTITUDE Member=Component C1 104
+Added Member To Class: ClassName=ATTITUDE Member=Component C2 224
+Added Member To Class: ClassName=ATTITUDE Member=Component C9 475
+Added Member To Class: ClassName=ATTITUDE Member=Component HMC5883
+Added Member To Class: ClassName=ATTITUDE Member=Component P1 Header 7
+Added Room: Name=ATTITUDE
