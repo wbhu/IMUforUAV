@@ -1,0 +1,147 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+F:\Git仓\Attitude\USER\Attitude.uvprojx
+Project File Date:  07/10/2016
+
+<h2>Output:</h2>
+Build target 'Attitude'
+compiling main.c...
+..\SYSTEM\sys\sys.h(34): warning:  #47-D: incompatible redefinition of macro "GPIOB_ODR_Addr" (declared at line 19 of "..\HardWareDriver\Service\IOI2C.h")
+  #define GPIOB_ODR_Addr    (GPIOB_BASE+20) //0x40020414 
+..\SYSTEM\sys\sys.h(35): warning:  #47-D: incompatible redefinition of macro "GPIOC_ODR_Addr" (declared at line 20 of "..\HardWareDriver\Service\IOI2C.h")
+  #define GPIOC_ODR_Addr    (GPIOC_BASE+20) //0x40020814 
+..\SYSTEM\sys\sys.h(44): warning:  #47-D: incompatible redefinition of macro "GPIOB_IDR_Addr" (declared at line 22 of "..\HardWareDriver\Service\IOI2C.h")
+  #define GPIOB_IDR_Addr    (GPIOB_BASE+16) //0x40020410 
+..\SYSTEM\sys\sys.h(45): warning:  #47-D: incompatible redefinition of macro "GPIOC_IDR_Addr" (declared at line 23 of "..\HardWareDriver\Service\IOI2C.h")
+  #define GPIOC_IDR_Addr    (GPIOC_BASE+16) //0x40020810 
+..\HardWareDriver\Service\report.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif
+main.c(57): warning:  #223-D: function "uart_init" declared implicitly
+        uart_init(115200);
+main.c(76): warning:  #223-D: function "printf" declared implicitly
+                                REPORT();
+main.c(84): warning:  #223-D: function "printf" declared implicitly
+                                REPORT();
+main.c(51): warning:  #177-D: variable "AX" was declared but never referenced
+        int16_t AX = 3, AY = 3, AZ = 3, GX = 3, GY = 3, GZ = 3;
+main.c(51): warning:  #177-D: variable "AY" was declared but never referenced
+        int16_t AX = 3, AY = 3, AZ = 3, GX = 3, GY = 3, GZ = 3;
+main.c(51): warning:  #177-D: variable "AZ" was declared but never referenced
+        int16_t AX = 3, AY = 3, AZ = 3, GX = 3, GY = 3, GZ = 3;
+main.c(51): warning:  #177-D: variable "GX" was declared but never referenced
+        int16_t AX = 3, AY = 3, AZ = 3, GX = 3, GY = 3, GZ = 3;
+main.c(51): warning:  #177-D: variable "GY" was declared but never referenced
+        int16_t AX = 3, AY = 3, AZ = 3, GX = 3, GY = 3, GZ = 3;
+main.c(51): warning:  #177-D: variable "GZ" was declared but never referenced
+        int16_t AX = 3, AY = 3, AZ = 3, GX = 3, GY = 3, GZ = 3;
+main.c: 14 warnings, 0 errors
+linking...
+Program Size: Code=25640 RO-data=952 RW-data=284 ZI-data=1540  
+FromELF: creating hex file...
+"..\OBJ\Template.axf" - 0 Error(s), 14 Warning(s).
+referenced
+        int16_t AX = 3, AY = 3, AZ = 3, GX = 3, GY = 3, GZ = 3;
+main.c: 14 warnings, 2 errors
+"..\OBJ\Template.axf" - 2 Error(s), 14 Warning(s).
+Target not created
+ stm32f4xx_rcc.c...
+compiling stm32f4xx_rng.c...
+compiling stm32f4xx_rtc.c...
+compiling stm32f4xx_sdio.c...
+compiling stm32f4xx_syscfg.c...
+compiling stm32f4xx_tim.c...
+compiling stm32f4xx_usart.c...
+compiling delay.c...
+compiling sys.c...
+compiling usart.c...
+compiling HMC5883L.c...
+..\SYSTEM\sys\sys.h(34): warning:  #47-D: incompatible redefinition of macro "GPIOB_ODR_Addr" (declared at line 19 of "..\HardWareDriver\Service\IOI2C.h")
+  #define GPIOB_ODR_Addr    (GPIOB_BASE+20) //0x40020414 
+..\SYSTEM\sys\sys.h(35): warning:  #47-D: incompatible redefinition of macro "GPIOC_ODR_Addr" (declared at line 20 of "..\HardWareDriver\Service\IOI2C.h")
+  #define GPIOC_ODR_Addr    (GPIOC_BASE+20) //0x40020814 
+..\SYSTEM\sys\sys.h(44): warning:  #47-D: incompatible redefinition of macro "GPIOB_IDR_Addr" (declared at line 22 of "..\HardWareDriver\Service\IOI2C.h")
+  #define GPIOB_IDR_Addr    (GPIOB_BASE+16) //0x40020410 
+..\SYSTEM\sys\sys.h(45): warning:  #47-D: incompatible redefinition of macro "GPIOC_IDR_Addr" (declared at line 23 of "..\HardWareDriver\Service\IOI2C.h")
+  #define GPIOC_IDR_Addr    (GPIOC_BASE+16) //0x40020810 
+..\HardWareDriver\Service\report.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HardWareDriver\HMC5883L\HMC5883L.c: 5 warnings, 0 errors
+compiling IMU.c...
+..\SYSTEM\sys\sys.h(34): warning:  #47-D: incompatible redefinition of macro "GPIOB_ODR_Addr" (declared at line 19 of "..\HardWareDriver\Service\IOI2C.h")
+  #define GPIOB_ODR_Addr    (GPIOB_BASE+20) //0x40020414 
+..\SYSTEM\sys\sys.h(35): warning:  #47-D: incompatible redefinition of macro "GPIOC_ODR_Addr" (declared at line 20 of "..\HardWareDriver\Service\IOI2C.h")
+  #define GPIOC_ODR_Addr    (GPIOC_BASE+20) //0x40020814 
+..\SYSTEM\sys\sys.h(44): warning:  #47-D: incompatible redefinition of macro "GPIOB_IDR_Addr" (declared at line 22 of "..\HardWareDriver\Service\IOI2C.h")
+  #define GPIOB_IDR_Addr    (GPIOB_BASE+16) //0x40020410 
+..\SYSTEM\sys\sys.h(45): warning:  #47-D: incompatible redefinition of macro "GPIOC_IDR_Addr" (declared at line 23 of "..\HardWareDriver\Service\IOI2C.h")
+  #define GPIOC_IDR_Addr    (GPIOC_BASE+16) //0x40020810 
+..\HardWareDriver\Service\report.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HardWareDriver\IMU\IMU.c(41): warning:  #815-D: type qualifier on return type is meaningless
+  volatile float invSqrt(float x)
+..\HardWareDriver\IMU\IMU.c(341): warning:  #167-D: argument of type "volatile float *" is incompatible with parameter of type "float *"
+        IMU_getValues(mygetqval);
+..\HardWareDriver\IMU\IMU.c(359): warning:  #815-D: type qualifier on return type is meaningless
+  volatile float safe_asin(float v)
+..\HardWareDriver\IMU\IMU.c(386): warning:  #167-D: argument of type "volatile float *" is incompatible with parameter of type "float *"
+        IMU_getQ(q); //更新全局四元数
+..\HardWareDriver\IMU\IMU.c(412): warning:  #167-D: argument of type "volatile float *" is incompatible with parameter of type "float *"
+                IMU_getValues(acc);
+..\HardWareDriver\IMU\IMU.c: 10 warnings, 0 errors
+compiling Fmath.c...
+..\SYSTEM\sys\sys.h(34): warning:  #47-D: incompatible redefinition of macro "GPIOB_ODR_Addr" (declared at line 19 of "..\HardWareDriver\Service\IOI2C.h")
+  #define GPIOB_ODR_Addr    (GPIOB_BASE+20) //0x40020414 
+..\SYSTEM\sys\sys.h(35): warning:  #47-D: incompatible redefinition of macro "GPIOC_ODR_Addr" (declared at line 20 of "..\HardWareDriver\Service\IOI2C.h")
+  #define GPIOC_ODR_Addr    (GPIOC_BASE+20) //0x40020814 
+..\SYSTEM\sys\sys.h(44): warning:  #47-D: incompatible redefinition of macro "GPIOB_IDR_Addr" (declared at line 22 of "..\HardWareDriver\Service\IOI2C.h")
+  #define GPIOB_IDR_Addr    (GPIOB_BASE+16) //0x40020410 
+..\SYSTEM\sys\sys.h(45): warning:  #47-D: incompatible redefinition of macro "GPIOC_IDR_Addr" (declared at line 23 of "..\HardWareDriver\Service\IOI2C.h")
+  #define GPIOC_IDR_Addr    (GPIOC_BASE+16) //0x40020810 
+..\HardWareDriver\Service\report.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HardWareDriver\Math\Fmath.c: 5 warnings, 0 errors
+compiling MPU6050.c...
+..\HardWareDriver\Service\IOI2C.h(19): warning:  #47-D: incompatible redefinition of macro "GPIOB_ODR_Addr" (declared at line 34 of "..\SYSTEM\sys\sys.h")
+  #define GPIOB_ODR_Addr    (GPIOB_BASE+0x14) //0x40010C14 
+..\HardWareDriver\Service\IOI2C.h(20): warning:  #47-D: incompatible redefinition of macro "GPIOC_ODR_Addr" (declared at line 35 of "..\SYSTEM\sys\sys.h")
+  #define GPIOC_ODR_Addr    (GPIOC_BASE+0x14) //0x40011014 
+..\HardWareDriver\Service\IOI2C.h(22): warning:  #47-D: incompatible redefinition of macro "GPIOB_IDR_Addr" (declared at line 44 of "..\SYSTEM\sys\sys.h")
+  #define GPIOB_IDR_Addr    (GPIOB_BASE+0x10) //0x40010C10 
+..\HardWareDriver\Service\IOI2C.h(23): warning:  #47-D: incompatible redefinition of macro "GPIOC_IDR_Addr" (declared at line 45 of "..\SYSTEM\sys\sys.h")
+  #define GPIOC_IDR_Addr    (GPIOC_BASE+0x10) //0x40011010 
+..\HardWareDriver\Service\report.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HardWareDriver\MPU6050\MPU6050.c: 5 warnings, 0 errors
+compiling IOI2C.c...
+..\SYSTEM\sys\sys.h(34): warning:  #47-D: incompatible redefinition of macro "GPIOB_ODR_Addr" (declared at line 19 of "..\HardWareDriver\Service\IOI2C.h")
+  #define GPIOB_ODR_Addr    (GPIOB_BASE+20) //0x40020414 
+..\SYSTEM\sys\sys.h(35): warning:  #47-D: incompatible redefinition of macro "GPIOC_ODR_Addr" (declared at line 20 of "..\HardWareDriver\Service\IOI2C.h")
+  #define GPIOC_ODR_Addr    (GPIOC_BASE+20) //0x40020814 
+..\SYSTEM\sys\sys.h(44): warning:  #47-D: incompatible redefinition of macro "GPIOB_IDR_Addr" (declared at line 22 of "..\HardWareDriver\Service\IOI2C.h")
+  #define GPIOB_IDR_Addr    (GPIOB_BASE+16) //0x40020410 
+..\SYSTEM\sys\sys.h(45): warning:  #47-D: incompatible redefinition of macro "GPIOC_IDR_Addr" (declared at line 23 of "..\HardWareDriver\Service\IOI2C.h")
+  #define GPIOC_IDR_Addr    (GPIOC_BASE+16) //0x40020810 
+..\HardWareDriver\Service\IOI2C.c: 4 warnings, 0 errors
+compiling report.c...
+..\SYSTEM\sys\sys.h(34): warning:  #47-D: incompatible redefinition of macro "GPIOB_ODR_Addr" (declared at line 19 of "..\HardWareDriver\Service\IOI2C.h")
+  #define GPIOB_ODR_Addr    (GPIOB_BASE+20) //0x40020414 
+..\SYSTEM\sys\sys.h(35): warning:  #47-D: incompatible redefinition of macro "GPIOC_ODR_Addr" (declared at line 20 of "..\HardWareDriver\Service\IOI2C.h")
+  #define GPIOC_ODR_Addr    (GPIOC_BASE+20) //0x40020814 
+..\SYSTEM\sys\sys.h(44): warning:  #47-D: incompatible redefinition of macro "GPIOB_IDR_Addr" (declared at line 22 of "..\HardWareDriver\Service\IOI2C.h")
+  #define GPIOB_IDR_Addr    (GPIOB_BASE+16) //0x40020410 
+..\SYSTEM\sys\sys.h(45): warning:  #47-D: incompatible redefinition of macro "GPIOC_IDR_Addr" (declared at line 23 of "..\HardWareDriver\Service\IOI2C.h")
+  #define GPIOC_IDR_Addr    (GPIOC_BASE+16) //0x40020810 
+..\HardWareDriver\Service\report.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HardWareDriver\Service\report.c(55): warning:  #223-D: function "printf" declared implicitly
+        printf('S');
+..\HardWareDriver\Service\report.c(139): warning:  #1-D: last line of file ends without a newline
+  //}
+..\HardWareDriver\Service\report.c: 7 warnings, 0 errors
+linking...
+Program Size: Code=25528 RO-data=952 RW-data=284 ZI-data=1540  
+FromELF: creating hex file...
+"..\OBJ\Template.axf" - 0 Error(s), 49 Warning(s).

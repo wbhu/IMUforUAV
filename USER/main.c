@@ -8,6 +8,9 @@
 
 #include "common.h"
 
+#define reportHz (500)
+#define uploadTime 1000000/reportHz
+
 // #define REPORT() 	{	\
 //				printf("test ok\n");	\
 //				printf("ahrs:%.2f,%.2f,%.2f,%.2f,%.2f\n",IMU_Yaw,IMU_Pitch,IMU_Roll,ACC_Pitch,ACC_Roll);	\
@@ -18,7 +21,7 @@
 //
 
 #define REPORT()	{		\
-				printf("%.2f %.2f %.2f\n",ypr[0],ypr[1],ypr[2]);	\
+				printf("ypr:%.2f,%.2f,%.2f\n", ypr[0], ypr[1], ypr[2]);	\
 			}
 
 //初始化TIM5 32位定时器，用于做系统的时钟。
@@ -42,6 +45,8 @@ void Initial_System_Timer(void)
 
 int main(void)
 {
+	u32 now = 0, lastTime = 0;
+	
 	float ypr[3];
 	int16_t AX = 3, AY = 3, AZ = 3, GX = 3, GY = 3, GZ = 3;
 
@@ -59,17 +64,27 @@ int main(void)
 	Initialize_Q();	//初始化四元数
 
 
-
+	now = lastTime = micros();
 	while(1)
 	{
-		//		printf("%d,%d,%d,%d,%d,%d\n",AX,AY,AZ,GX,GY,GZ);
-		//		MPU6050_getMotion6( &AX, &AY, &AZ, &GX, &GY, &GZ);
 		IMU_getYawPitchRoll( ypr);	//姿态更新task
-
-		//		REPORT();
-		printf("ypr:%.2f,%.2f,%.2f\n", ypr[0], ypr[1], ypr[2]);
-		//		Report_imu((unsigned short int)(ypr[2]*100),( unsigned short int)(ypr[1]*100),(unsigned short int)(ypr[0]*100));
-		delay_ms(400);
+		now = micros();
+		if(now < lastTime)
+		{
+			if((0xffffffff - lastTime + now) > uploadTime)
+			{
+				REPORT();
+				lastTime = now;
+			}
+		}
+		else
+		{
+			if((now - lastTime) > uploadTime)
+			{
+				REPORT();
+				lastTime = now;
+			}
+		}
 	}
 }
 
