@@ -41,4 +41,4 @@ JLink*
 *.uvopt
 !.gitignore
 *.htm
-./OBJ/*
+./OBJ/*.htm
