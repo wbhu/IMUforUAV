@@ -8,9 +8,16 @@
   1. STM32F407
   2. Keil uVersion 5
 ```
-## Demo
+## Demo:
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/lu3YBzcjbMQ/0.jpg)](https://www.youtube.com/embed/lu3YBzcjbMQ "DUT")
 
-## Note
-This source code is only a part of the demo video source code!
+Note: This source code is only a part of the demo video source code!
+## Schematic Diagram:
+The Schematic diagram could be found at ./SchematicDiagram folder.
+
+
+## Another Project:
+Based on our quadrotor aircraft's control system and Pixhawk project, we design a control system for flying skateboard.
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/OMiPqYcYU0A/0.jpg)](https://www.youtube.com/embed/OMiPqYcYU0A "DUT")
