@@ -7,18 +7,11 @@
 **********************************************************************************/
 
 #include "common.h"
+#include "usart.h"
 
 #define reportHz (500)
 #define uploadTime 1000000/reportHz
 
-// #define REPORT() 	{	\
-//				printf("test ok\n");	\
-//				printf("ahrs:%.2f,%.2f,%.2f,%.2f,%.2f\n",IMU_Yaw,IMU_Pitch,IMU_Roll,ACC_Pitch,ACC_Roll);	\
-//				printf("ypr:%.2f,%.2f,%.2f\n",ypr[0],ypr[1],ypr[2]);	\
-//				printf("GYRO:%.2f,%.2f,%.2f\n",IMU_GYROx, IMU_GYROy, IMU_GYROz);	\
-//				printf("acc_vector:%.2f\n",acc_vector);		\
-//			}
-//
 
 #define REPORT()	{		\
 				printf("ypr:%.2f,%.2f,%.2f\n", ypr[0], ypr[1], ypr[2]);	\
@@ -46,16 +39,10 @@ void Initial_System_Timer(void)
 int main(void)
 {
 	u32 now = 0, lastTime = 0;
-	
 	float ypr[3];
-	int16_t AX = 3, AY = 3, AZ = 3, GX = 3, GY = 3, GZ = 3;
-
 	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_1); //中断优先级分组
 	delay_init(168);		//延时初始化  并启动开机时间。
-
-
 	uart_init(115200);
-
 	delay_ms(500);
 	IIC_Init();
 	delay_ms(50);

@@ -38,7 +38,7 @@ volatile float  acc_X, acc_Y, acc_Z, acc_MX, acc_MY, acc_MZ; //¼ÓËÙ¶È³õÊ¼»¯ËÄÔªÊ
 ÊäÈë²ÎÊı£º Òª¼ÆËãµÄÖµ
 Êä³ö²ÎÊı£º ½á¹û
 *******************************************************************************/
-volatile float invSqrt(float x)
+float invSqrt(float x)
 {
 	volatile float halfx = 0.5f * x;
 	volatile float y = x;
@@ -334,7 +334,7 @@ void FreeIMU_AHRSupdate(volatile float gx, volatile float gy, volatile float gz,
 ÊäÈë²ÎÊı£º ½«Òª´æ·ÅËÄÔªÊıµÄÊı×éÊ×µØÖ·
 Êä³ö²ÎÊı£ºÃ»ÓĞ
 *******************************************************************************/
-volatile float mygetqval[9];	//ÓÃÓÚ´æ·Å´«¸ĞÆ÷×ª»»½á¹ûµÄÊı×é
+float mygetqval[9];	//ÓÃÓÚ´æ·Å´«¸ĞÆ÷×ª»»½á¹ûµÄÊı×é
 void IMU_getQ(float *q)
 {
 
@@ -356,7 +356,7 @@ void IMU_getQ(float *q)
 // a varient of asin() that checks the input ranges and ensures a
 // valid angle as output. If nan is given as input then zero is
 // returned.
-volatile float safe_asin(float v)
+float safe_asin(float v)
 {
 	if (isnan(v))
 	{
@@ -382,7 +382,7 @@ volatile float safe_asin(float v)
 *******************************************************************************/
 void IMU_getYawPitchRoll(float *angles)
 {
-	static volatile float q[4]; //¡¡ËÄÔªÊı
+	static float q[4]; //¡¡ËÄÔªÊı
 	IMU_getQ(q); //¸üĞÂÈ«¾ÖËÄÔªÊı
 	//	angles[2] = IMU_Roll = ACC_Roll;
 	//	angles[1] = IMU_Pitch = ACC_Pitch;
@@ -402,7 +402,7 @@ void IMU_getYawPitchRoll(float *angles)
 ÊäÈë²ÎÊı£ºÃ»ÓĞ
 Êä³ö²ÎÊı£ºÃ»ÓĞ
 *******************************************************************************/
-volatile float acc[9];
+static float acc[9];
 void Initialize_Q()
 {
 	int i;
