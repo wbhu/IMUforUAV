@@ -1,4 +1,4 @@
-# ATTITUDE
+# ATTITUDE  [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
 "Attitude" is an AHRS for UAV, the algorithm is mainly come from the paper 
 > 范崧伟, 卞鸿巍. 多旋翼无人机 AHRS 系统矢量乘积误差 PI 跟踪算法[J]. 海军工程大学学报, 2015 (2015 年 03): 104-108.
