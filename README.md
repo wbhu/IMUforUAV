@@ -16,6 +16,9 @@ Note: This source code is only a part of the demo video source code!
 ## Schematic Diagram:
 The Schematic diagram could be found at ./SchematicDiagram folder.
 
+![pcb2](https://github.com/crisb-DUT/Attitude/raw/master/SchematicDiagram/pcb2.png)
+
+![pcb1](https://github.com/crisb-DUT/Attitude/raw/master/SchematicDiagram/pcb.png)
 
 ## Another Project:
 Based on our quadrotor aircraft's control system and Pixhawk project, we design a control system for flying skateboard.
