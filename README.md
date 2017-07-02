@@ -1,7 +1,7 @@
 # ATTITUDE  [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
 "Attitude" is an AHRS for UAV, the algorithm is mainly come from the following papers 
->[Euston M, Coote P, Mahony R, et al. A complementary filter for attitude estimation of a fixed-wing UAV[C]//Intelligent Robots and Systems, 2008. IROS 2008. IEEE/RSJ International Conference on. IEEE, 2008: 340-345.][link1]
+>[Euston M, Coote P, Mahony R, et al. A complementary filter for attitude estimation of a fixed-wing UAV[C]. Intelligent Robots and Systems, 2008. IROS 2008. IEEE/RSJ International Conference on. IEEE, 2008: 340-345.][link1]
 
 >[Mahony R, Hamel T, Pflimlin J M. Nonlinear complementary filters on the special orthogonal group[J]. IEEE Transactions on automatic control, 2008, 53(5): 1203-1218.][link2]
 
