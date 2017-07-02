@@ -1,12 +1,18 @@
 # ATTITUDE  [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
-"Attitude" is an AHRS for UAV, the algorithm is mainly come from the paper 
-> 范崧伟, 卞鸿巍. 多旋翼无人机 AHRS 系统矢量乘积误差 PI 跟踪算法[J]. 海军工程大学学报, 2015 (2015 年 03): 104-108.
+"Attitude" is an AHRS for UAV, the algorithm is mainly come from the following papers 
+>[Euston M, Coote P, Mahony R, et al. A complementary filter for attitude estimation of a fixed-wing UAV[C]//Intelligent Robots and Systems, 2008. IROS 2008. IEEE/RSJ International Conference on. IEEE, 2008: 340-345.][link1]
+
+>[Mahony R, Hamel T, Pflimlin J M. Nonlinear complementary filters on the special orthogonal group[J]. IEEE Transactions on automatic control, 2008, 53(5): 1203-1218.][link2]
+
+[link1]: http://users.cecs.anu.edu.au/~Jonghyuk.Kim/pdf/2008_Euston_iros_v1.04.pdf
+[link2]: https://hal-univ-tlse3.archives-ouvertes.fr/hal-00488376/document
 
 ## Environment:
 ```
   1. STM32F407
   2. Keil uVersion 5
+  3. Windows 7/8/10
 ```
 ## Demo:
 
@@ -14,7 +20,7 @@
 
 Note: This source code is only a part of the demo video source code!
 ## Schematic Diagram:
-The Schematic diagram could be found at ./SchematicDiagram folder.
+The Schematic diagram could be found at [schem](./SchematicDiagram/schematicDiagram.pdf).
 
 ![pcb2](https://github.com/crisb-DUT/Attitude/raw/master/SchematicDiagram/pcb2.png)
 ![pcb1](https://github.com/crisb-DUT/Attitude/raw/master/SchematicDiagram/pcb.png)
