@@ -29,3 +29,10 @@ The Schematic diagram could be found at [schem](./SchematicDiagram/schematicDiag
 Based on our quadrotor aircraft's control system and Pixhawk project, we design a control system for flying skateboard.
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/OMiPqYcYU0A/0.jpg)](https://www.youtube.com/embed/OMiPqYcYU0A "Play")
+
+## Credits
+
+- Tong Yuanyang: This code is based on his code.
+- Yu Xinglin: The schematic diagram was made by him.
+- Huang Feifei: He is our perfect UAV flyer.
+- Hao Xingxing: The video is made by him.
